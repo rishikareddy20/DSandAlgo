@@ -39,7 +39,7 @@ void insertion()
 		rear=(rear+1)%SIZE;
 		cqueue[rear]=item;
 		if(front==-1)
-		front++;
+		front=(front+1)%SIZE;
 	}
 }
 void deletion()
